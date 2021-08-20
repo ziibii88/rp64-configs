@@ -10,3 +10,4 @@ services:
     volumes:
       - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
       - ./conf.d:/etc/nginx/conf.d
+      - ./logs:/var/log/nginx
