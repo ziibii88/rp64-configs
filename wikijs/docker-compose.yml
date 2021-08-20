@@ -25,3 +25,8 @@ services:
 
 volumes:
   db-data:
+
+networks:
+  default:
+    external:
+      name: rp64-net

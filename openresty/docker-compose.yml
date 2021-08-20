@@ -11,3 +11,8 @@ services:
       - ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf
       - ./conf.d:/etc/nginx/conf.d
       - ./logs:/var/log/nginx
+
+networks:
+  default:
+    external:
+      name: rp64-net
