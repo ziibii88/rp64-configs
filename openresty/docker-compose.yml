@@ -12,6 +12,7 @@ services:
       - ./conf.d:/etc/nginx/conf.d
       - ./logs:/var/log/nginx
       - /etc/letsencrypt:/etc/letsencrypt
+      - /home/rp64/projects/linkedin-login:/projects/linkedin-login
 
 networks:
   default:
